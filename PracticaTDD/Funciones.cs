@@ -6,5 +6,9 @@ namespace PracticaTDD
 {
     public class Funciones
     {
+        public static long CalcularFactorial(int n)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
