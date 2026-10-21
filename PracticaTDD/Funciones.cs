@@ -18,5 +18,23 @@ namespace PracticaTDD
 
             return resultado;
         }
+
+        public static bool EsContrasenyaValida(string contrasenya)
+        {
+            bool valida = false;
+
+            if (contrasenya != null)
+            {
+                if (contrasenya.Length >= 8)
+                {
+                    if (contrasenya.Contains("#"))
+                    {
+                        valida = true;
+                    }
+                }
+            }
+
+            return valida;
+        }
     }
 }
