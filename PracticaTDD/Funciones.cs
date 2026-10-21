@@ -23,15 +23,9 @@ namespace PracticaTDD
         {
             bool valida = false;
 
-            if (contrasenya != null)
+            if (contrasenya != null && contrasenya.Length >= 8 && contrasenya.Contains("#"))
             {
-                if (contrasenya.Length >= 8)
-                {
-                    if (contrasenya.Contains("#"))
-                    {
-                        valida = true;
-                    }
-                }
+                valida = true;
             }
 
             return valida;
