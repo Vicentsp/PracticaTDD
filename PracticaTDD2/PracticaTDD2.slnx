@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PracticaTDD.Tests/PracticaTDD.Tests.csproj" />
+  <Project Path="PracticaTDD2/PracticaTDD2.csproj" />
+</Solution>
